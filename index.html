@@ -1,0 +1,104 @@
+<!DOCTYPE html> <!-- HyperText(group of text documents linked together using hyperlinks) Markup Language version 5 -->
+<html lang="en" dir="ltr">
+<!-- html code -->
+
+
+<head>
+  <!-- holds information about the web page and it tells the browser how it should handle the page -->
+  <meta charset="utf-8"> <!-- metadata or extra data that tells text encoded using UTF-8 encoding system (similar to unicode). List of the available characters that we can use inside our web site  -->
+  <!-- Different types of encoding are specialized for different languages because each language use different symbols -->
+  <!-- utf-8 ensure maximun compatibility include all international symbols included in the unicode character set and emojis -->
+  <meta name="description" content="Personal website"> <!-- name attribute is used for search engines to show this description or information about the website in the search index -->
+  <!-- meta tags tell the browser how it should render the webpage and give information to search engines about the content of the website -->
+  <meta name="keywords" content="HTML, CSS, JavaScript">
+  <title>ℳonica's Personal Site</title> <!-- the page title location and the name of the page showed in the tab of the browser -->
+</head>
+
+<body>
+  <!-- content for the website -->
+  <table cellspacing="20"> <!-- porcentage value or pixels -->
+    <tr>
+      <td><img src="Images/education.png" alt="monica profile picture"> <!-- It is used when the browser can't render the image it display an ALTERNATIVE TEXT to describe the image. SEO (Search Engine Optimization) to get the website ranking for certain keywords, Google looks at to index and find out what the webpage is about to help searchers find the page related to the main topic--></td>
+      <td>
+        <h1>Monica Galarza</h1>
+        <p>
+          <em>Founder and CTO of the <strong><a href="https://www.facebook.com/ecuatutor/">App Tu Mejor Tutor</a></strong></em> <!-- emphasis element makes it look italic like <i>(only styles the text) and tells the browser the words should be emphasized -->
+          <!-- use strong element instead of <b> because it confers meaning that says this text has strong importance-->
+          <!-- a tag stands for anchor html element -->
+        </p>
+        <p>
+          I am a web developer and manager at App Tu Mejor Tutor. My goal is to improve system education through better learning methodologies focused on primary and high school students.
+        </p>
+      </td>
+    </tr>
+  </table>
+
+  <hr>
+  <h3>Education</h3>
+  <ul> <!-- unordered list -->
+    <li>Bachelor Operating Systems and Networking</li> <!-- list item -->
+    <li>Business and Investing</li>
+    <li><a href="https://www.credly.com/badges/e6b2d02d-15f6-45e9-bdaf-a6b2004fa883/public_url">Cibersecurity International Certification</a></li>
+  </ul>
+  <hr>
+  <h3>Work Experience</h3>
+  <table border="1" cellspacing='10'>  <!-- create a table / border attribute in pixels -->
+    <thead>
+      <tr>
+        <th>Dates</th>
+        <th>Work</th>
+      </tr>
+
+    </thead>
+    <tbody>
+
+    </tbody>
+    <tfoot>
+
+    </tfoot>
+    <tr> <!-- create a table row -->
+      <td>2011-2015</td> <!-- create a table cell or column  -->
+      <td>Production Engineer</td>
+    </tr>
+    <tr>
+      <td>2009-2011</td>
+      <td>Business and Investing</td>
+    </tr>
+  </table>
+<br>
+<hr>
+<h3>Skills</h3>
+<table border="1" <!-- Table that has 1 row and two columns. Inside each column we have a nested table with 2 rows and 2 columns -->
+  <tr>
+    <td>
+      <table cellspacing='10'>
+        <tr>
+          <td>Python</td>
+          <td>⭐⭐⭐⭐⭐</td>
+        </tr>
+        <tr>
+          <td>Tennis player</td>
+          <td>⭐⭐⭐⭐⭐</td>
+        </tr>
+      </table>
+    </td>
+    <td>
+      <table cellspacing='10'>
+        <tr>
+          <td>Cooking</td>
+          <td>⭐⭐</td>
+        </tr>
+        <tr>
+          <td>Chess player</td>
+          <td>⭐⭐⭐⭐⭐</td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+  <hr>
+  <a href="hobbies.html">My Hobbies</a> <!--link to an internal site with the name of the page at the same level from index.html -->
+  <a href="contact.html">Contact Me</a>
+</body>
+</html>
+<!-- -->
